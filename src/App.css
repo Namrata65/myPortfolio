@@ -128,7 +128,7 @@ img {
 
 .main-header-section {
     .main-header-container {
-        padding: 140px 20px 50px 20px;
+        padding: 100px 20px 50px 20px;
         /* padding-bottom: 50px; */
         .main-header {
             .main-header-left {
@@ -145,6 +145,10 @@ img {
                     button {
                         padding: 0 50px;
                         font-size: 15px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: var(--bgColor);
                     }
                 }
             }
@@ -383,12 +387,6 @@ footer {
                 .main-header-left {
                     flex-basis: 40%;
                     flex-grow: 0;
-                    .main-header-buttons {
-                        a {
-                            text-decoration: none;
-                            color: var(--bgColor);
-                        }
-                    }
                 }
                 .main-header-right {
                     display: flex;
