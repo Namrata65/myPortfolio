@@ -43,6 +43,12 @@ img {
     height: auto;
 }
 
+body {
+    background-image: url(./resources/body-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .purple-button {
     display: inline-block;
     color: #fff;
