@@ -126,6 +126,10 @@ body {
     color: var(--bgColor);
 }
 
+.main-menu nav ul li a:hover {
+    color: var(--primaryColor);
+}
+
 .main-menu nav ul.showMblNav {
     display: flex;
     flex-direction: column;
@@ -188,6 +192,28 @@ body {
 .skills {
     padding-top: 50px;
     .skills-container {
+        .skills-header {
+            padding: 0 100px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 20px;
+            button {
+                padding: 0 30px;
+                font-size: 25px;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+            
+            button.active {
+                color: var(--primaryColor);
+                border-bottom: 1px solid var(--primaryColor);
+                box-shadow: 0 4px 4px -2px var(--primaryColor);
+            }
+        }
         .skills-container-left {
             padding: 0 100px;
             ul {
@@ -429,11 +455,13 @@ footer {
             display: flex;
             flex-flow: row wrap;
             gap: 100px;
+            padding: 100px 40px;
             .about-area-left {
                 flex-basis: 40%;
                 flex-grow: 0;
             }
             .about-area-right {
+                padding-top: 20px;
                 flex-basis: 50%;
                 flex-grow: 0;
                 h2 {

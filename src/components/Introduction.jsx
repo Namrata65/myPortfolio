@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../resources/nams.jpeg";
+import image from '../resources/girl.png';
 
 const Introduction = () => {
   const handleDownloadCV = () => {
@@ -12,7 +12,7 @@ const Introduction = () => {
     <section id="introduction" className="about-area">
       <div className="about-area-container">
         <div className="about-area-left">
-          <img src={img} alt="Introduction image"></img>
+          <img src={image} alt="Introduction image"></img>
         </div>
         <div className="about-area-right">
           <h2>
