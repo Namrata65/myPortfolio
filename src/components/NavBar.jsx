@@ -27,6 +27,9 @@ const NavBar = () => {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
             <a href="#services">Services</a>
           </li>
           <li>
