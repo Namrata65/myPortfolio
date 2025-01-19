@@ -8,6 +8,10 @@
     --secondaryColor: #f9f9fd;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     line-height: 1.4;
@@ -250,6 +254,15 @@ body {
         }
         .skills-container-right {
             text-align: center;
+        }
+    }
+}
+
+.techskills {
+    .techskills-container {
+        img {
+            height: 70vh;
+            object-fit: cover;
         }
     }
 }
