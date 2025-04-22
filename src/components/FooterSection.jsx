@@ -1,13 +1,13 @@
 import React from "react";
+import logo from '../resources/nklogo.png';
 
 const FooterSection = () => {
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-logo">
-          <a href="#">
-            {/* <img src={img} alt="" /> */}
-            <h3>Namrata</h3>
+          <a href="#" className="logo-link">
+            <img src={logo} alt="Logo" />
           </a>
           <h4>Follow Me</h4>
         </div>
@@ -18,7 +18,7 @@ const FooterSection = () => {
           <a href="https://www.linkedin.com/in/namrata-kanda/">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/dashboard">
+          <a href="https://github.com/Namrata65">
             <i className="fa-brands fa-github"></i>
           </a>
         </div>

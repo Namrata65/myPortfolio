@@ -73,10 +73,10 @@ const Experience = () => {
     <section id="experience" className="experience">
         <h2>Work I have done at</h2>
       <div className="experience-container">
-        <Card sx={{ maxWidth: 300 }}>
+        <Card className="company-card" sx={{ maxWidth: 300 }}>
           <CardHeader
             title="LingaROS"
-            subheader="From Sept,2020 to Sept,2021"
+            subheader="Sept, 2020 to Sept, 2021"
           />
           <CardMedia
             component="img"
@@ -96,7 +96,7 @@ const Experience = () => {
               aria-expanded={lingaExpanded}
               aria-label="show more"
             >
-              <ExpandMoreIcon />
+              <ExpandMoreIcon className="experience-dropdown"/>
             </LingaExpandMore>
           </CardActions>
           <Collapse in={lingaExpanded} timeout="auto" unmountOnExit>
@@ -110,10 +110,10 @@ const Experience = () => {
             </CardContent>
           </Collapse>
         </Card>
-        <Card sx={{ maxWidth: 300 }}>
+        <Card className="company-card" sx={{ maxWidth: 300 }}>
           <CardHeader
             title="CGI"
-            subheader="From Sept,2021 to Oct,2022"
+            subheader="Sept, 2021 to Oct, 2022"
           />
           <CardMedia
             component="img"

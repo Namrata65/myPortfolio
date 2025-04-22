@@ -7,7 +7,6 @@ import Services from './components/Services';
 import ContactUs from './components/ContactUs';
 import FooterSection from './components/FooterSection';
 import Experience from './components/Experience';
-import TechSkills from './components/TechSkills';
 
 function App() {
 
@@ -16,7 +15,6 @@ function App() {
       <NavBar />
       <MainHeader />
       <Introduction />
-      <TechSkills />
       <Skills/>
       <Experience />
       <Services />

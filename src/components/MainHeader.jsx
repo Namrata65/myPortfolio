@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../resources/nams.jpeg";
+import img from "../resources/me.png";
 
 const MainHeader = () => {
   const handleDownload = () => {
@@ -18,8 +18,8 @@ const MainHeader = () => {
       <div className="main-header-container">
         <div className="main-header">
           <div className="main-header-left">
-            <h3>Hello</h3>
-            <h1>I AM NAMRATA KANDA</h1>
+            <h3>Hello, I am </h3>
+            <h1>NAMRATA KANDA</h1>
             <h5>FULL STACK DEVELOPER</h5>
             <div className="main-header-buttons">
               <button className="purple-button">

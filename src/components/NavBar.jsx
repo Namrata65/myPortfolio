@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../resources/nklogo.png';
 
 const NavBar = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
@@ -10,7 +11,7 @@ const NavBar = () => {
   return (
     <div className="main-menu">
       <div className="logo">
-        <h2>Namrata</h2>
+        <img src={logo} alt="Logo" />
       </div>
       <nav>
         <button id="mobileNavBtn" onClick={toggleMobileNav}>
@@ -30,7 +31,7 @@ const NavBar = () => {
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services">Education</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
