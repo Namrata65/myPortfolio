@@ -23,7 +23,7 @@ const MainHeader = () => {
             <h5>FULL STACK DEVELOPER</h5>
             <div className="main-header-buttons">
               <button className="purple-button">
-                <a href={mailtoLink}>Hire me</a>
+                <a href={mailtoLink}>Contact me</a>
               </button>
               <button className="purple-button" onClick={handleDownload}>
                 Get CV

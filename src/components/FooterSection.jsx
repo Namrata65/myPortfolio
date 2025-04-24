@@ -7,9 +7,9 @@ const FooterSection = () => {
       <div className="footer-container">
         <div className="footer-logo">
           <a href="#" className="logo-link">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Footer Logo" />
           </a>
-          <h4>Follow Me</h4>
+          <h4>Connect with me</h4>
         </div>
         <div className="footer-social">
           <a href="https://www.instagram.com/namm_rtaa/">

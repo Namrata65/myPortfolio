@@ -34,7 +34,7 @@ const NavBar = () => {
             <a href="#services">Education</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Say Something</a>
           </li>
         </ul>
       </nav>
