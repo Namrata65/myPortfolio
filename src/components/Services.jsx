@@ -8,7 +8,7 @@ const Services = () => {
     <section id="services" className="services">
       <div className="services-container">
         <div className="services-header">
-          <h2>Education</h2>
+          <h2>My Education</h2>
           {/* <p>Our services are designed to meet the needs of our clients Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, consequuntur.</p> */}
         </div>
         <div className="services-content">
@@ -19,7 +19,7 @@ const Services = () => {
               <p>Web and Mobile Development</p>
               <span>Langara College</span>
               <address>Vancouver, BC, Canada</address>
-              <p>2024 - 2025</p>
+              <p>Jan 2024 - April 2025</p>
             </li>
             <li>
               <img src={web} alt="Services logo icon" />
@@ -27,7 +27,7 @@ const Services = () => {
               <p>Master of Computer Applications</p>
               <span>Guru Nanak Dev University</span>
               <address>Amritsar, Punjab, India</address>
-              <p>2017 - 2020</p>
+              <p>July 2017 - May 2020</p>
             </li>
 
             <li>
@@ -36,7 +36,7 @@ const Services = () => {
               <p>Bachelor of Computer Applications</p>
               <span>BBK DAV College</span>
               <address>Amritsar, Punjab, India</address>
-              <p>2014 - 2017</p>
+              <p>April 2014 - May 2017</p>
             </li>
           </ul>
         </div>

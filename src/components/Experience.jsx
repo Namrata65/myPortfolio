@@ -71,12 +71,12 @@ const Experience = () => {
 
   return (
     <section id="experience" className="experience">
-        <h2>Work I have done at</h2>
+        <h2>My Career Journey</h2>
       <div className="experience-container">
         <Card className="company-card" sx={{ maxWidth: 300 }}>
           <CardHeader
-            title="LingaROS"
-            subheader="Sept, 2020 to Sept, 2021"
+            title="Junior Software Engineer"
+            subheader="Sept 2020 - Sept 2021"
           />
           <CardMedia
             component="img"
@@ -86,7 +86,7 @@ const Experience = () => {
           />
           <CardContent>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-            As a Junior Software Engineer
+            At LingaROS
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -112,8 +112,8 @@ const Experience = () => {
         </Card>
         <Card className="company-card" sx={{ maxWidth: 300 }}>
           <CardHeader
-            title="CGI"
-            subheader="Sept, 2021 to Oct, 2022"
+            title="Associate software engineer"
+            subheader="Sept 2021 - Oct 2022"
           />
           <CardMedia
             component="img"
@@ -123,7 +123,7 @@ const Experience = () => {
           />
           <CardContent>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-             As an associate software engineer
+             At CGI 
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
