@@ -112,7 +112,7 @@ const Experience = () => {
         </Card>
         <Card className="company-card" sx={{ maxWidth: 300 }}>
           <CardHeader
-            title="Associate software engineer"
+            title="Associate Software Engineer"
             subheader="Sept 2021 - Oct 2022"
           />
           <CardMedia

@@ -317,6 +317,9 @@ body {
 .experience {
     padding: 50px 0px;
     text-align: center;
+    h2 {
+        margin-bottom: 20px;
+    }
 
     .experience-container {
         display: flex;
