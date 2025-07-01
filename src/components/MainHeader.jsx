@@ -8,10 +8,12 @@ const MainHeader = () => {
     link.download = "Namrata_Kanda.pdf";
     link.click();
   };
-  const email = "namratakanda8@gmail.com"; 
+  const email = "namratakanda8@gmail.com";
   const subject = "Inviting to discuss the proposal";
   const body = "I would like to connect with you regarding...";
-  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
 
   return (
     <section className="main-header-section">
@@ -28,6 +30,9 @@ const MainHeader = () => {
               <button className="purple-button" onClick={handleDownload}>
                 Get CV
               </button>
+              <a href="https://github.com/Namrata65">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="main-header-right">

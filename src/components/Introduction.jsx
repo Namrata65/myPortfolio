@@ -1,5 +1,5 @@
 import React from "react";
-import image from '../resources/girl.png';
+import image from "../resources/girl.png";
 
 const Introduction = () => {
   const handleDownloadCV = () => {
@@ -20,15 +20,17 @@ const Introduction = () => {
             <br /> Introduce <br /> Myself
           </h2>
           <p>
-            I am a passionate and dedicated software developer with a strong
-            background in computer science and software engineering. I have a
-            proven track record of delivering high-quality software solutions
-            that meet and exceed customer expectations.
+            I’m a passionate and dedicated software developer who loves turning
+            ideas into functional, user-focused digital experiences. Whether
+            it’s building sleek interfaces or optimizing backend logic, I enjoy
+            creating solutions that are both thoughtful and efficient.
           </p>
           <p>
-            I am a strong believer in the importance of teamwork and
-            collaboration, and I have a proven ability to work effectively with
-            cross-functional teams to deliver high-quality software solutions.
+            With hands-on experience across the full development stack, I’ve
+            contributed to projects that balance technical precision with
+            thoughtful design. I believe great software is built through
+            collaboration — and I thrive in team environments where ideas are
+            shared, problems are solved together, and growth is continuous.
           </p>
           <button className="purple-button" onClick={handleDownloadCV}>
             Download CV
